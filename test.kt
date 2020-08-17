@@ -8,14 +8,10 @@ import java.nio.file.Files;
 
 fun readFilee(path:String):String
 {
-    try
-    {
-        var file = File(path);
-        var encoded = Files.readAllBytes((file.toPath()));
-    } catch(e:IOException)
-    {
 
-    }
+    var file = File(path);
+    var encoded = Files.readAllBytes((file.toPath()));
+
     return "";
 }
 
